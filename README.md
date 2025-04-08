@@ -120,6 +120,33 @@ Feito por e para universitários que só querem **sobreviver aos labs** com o m�
 
 ---
 
+## 🤖 Interpretação apra IA
+
+#Use esa mensagem para que a IA interprete o conteudo do laboratorio e gere os comandos
+
+```bash
+1. Toda linha que começa com `$ comando...` ou `# comando...` deve ir direto como linha no txt.
+2. Quando for abrir o `vim`, inserir as seguintes tags:
+   - `vim /caminho/script`
+   - `[i]` (antes do conteúdo do script)
+   - Código do script (linha a linha)
+   - `[esc]`
+   - `:wq`
+3. Qualquer instrução que diga "execute em segundo plano" deve adicionar `&` ao final.
+4. Quando houver menções a:
+   - "Aguarde", "observe", "confirme" → adicionar `[sleep-2]`, `[sleep-5]`, ou `[sleep-10]` conforme o tempo
+   - "Saia do top" → `[ctrl+c]`
+   - "Pressione tecla..." → usar tags `[m]`, `[t]`, `[shift+p]`, `[shift+w]`, etc.
+   - "Salve e saia do vim" → `:wq`
+5. Ao encontrar `Password:`, incluir a senha diretamente (ex: `redhat`) na próxima linha.
+6. Para comandos finais como avaliação ou finalização → adicionar no fim:
+   - `lab grade <lab-name>`
+   - `lab finish <lab-name>`
+```
+
+
+---
+
 ## 🙋‍♂️ Feito com raiva de digitar por:  
 **Davi Mendes**  
 💻 Engenharia de Software - PUC Minas
