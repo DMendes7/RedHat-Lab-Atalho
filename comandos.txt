@@ -1,0 +1,4 @@
+lab start users-user
+ssh student@servera
+sudo -i
+student
