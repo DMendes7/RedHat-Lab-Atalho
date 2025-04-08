@@ -37,11 +37,15 @@ Antes de iniciar **qualquer laboratório**, **copie e cole os comandos EXATOS** 
 
 Exemplo:
 ```
+⚠️ **Sujestão de uso, não inicie o lab com os script, o lab as vezes demora para iniciar, coso demore mais que 5 segundos da ruim**
+
 lab start users-user
 ssh student@servera
 sudo -i
 student
 ```
+
+
 
 > ⚠️ **A ordem importa!** Se os comandos estiverem fora de sequência, o lab pode não funcionar corretamente. Você foi avisado. 😅
 
