@@ -51,7 +51,14 @@ student
 
 ---
 
-### 3. ▶️ Execute o script
+### 3. 🖥️ Habilite o Host Paste
+
+No terminal web da Red Hat Academy, **clique no botão "Host Paste"** no canto superior direito da janela.  
+Isso é essencial para que o terminal aceite as entradas do teclado simulado!
+
+---
+
+### 4. ▶️ Execute o script
 
 No terminal local (VS Code, PowerShell, cmd, etc), digite:
 
@@ -70,7 +77,7 @@ Você tem 5 segundos para clicar no terminal web ou bloco de notas...
 
 ---
 
-### 4. 🖱️ Clique no terminal web!
+### 5. 🖱️ Clique no terminal web!
 
 Enquanto o script faz a contagem regressiva (5 segundos), **clique dentro do terminal do navegador** onde você executa os comandos do laboratório.
 
@@ -87,12 +94,14 @@ Enquanto o script faz a contagem regressiva (5 segundos), **clique dentro do ter
 ## 📌 Dicas úteis
 
 - Quer testar antes de usar no lab?  
-  Use um site tipo [aNotepad](https://pt.anotepad.com/) pra simular um terminal.
+  Use um site tipo [editpad.org](https://editpad.org) pra simular um terminal.
 
 - O tempo entre os comandos é de **3 segundos**, mas pode ser ajustado no `executor.py`:
   ```python
   time.sleep(3)
   ```
+
+- Se quiser modo manual (pressionar Enter pra avançar comando a comando), peça que o Gepeto ative isso. 🤖
 
 ---
 
@@ -114,5 +123,3 @@ Feito por e para universitários que só querem **sobreviver aos labs** com o m�
 ## 🙋‍♂️ Feito com raiva de digitar por:  
 **Davi Mendes**  
 💻 Engenharia de Software - PUC Minas
-
----
